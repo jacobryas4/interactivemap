@@ -1,0 +1,39 @@
+{
+    "points": [
+        {
+            "x": 100,
+            "y": 200,
+            "name": "first place",
+            "img": "imghere",
+            "desc": "This is a silly place"
+        },
+        {
+            "x": 200,
+            "y": 300,
+            "name": "first place",
+            "img": "imghere",
+            "desc": "This is a silly place"
+        },
+        {
+            "x": 300,
+            "y": 200,
+            "name": "first place",
+            "img": "imghere",
+            "desc": "This is a silly place"
+        },
+        {
+            "x": 150,
+            "y": 250,
+            "name": "first place",
+            "img": "imghere",
+            "desc": "This is a silly place"
+        },
+        {
+            "x": 80,
+            "y": 220,
+            "name": "first place",
+            "img": "imghere",
+            "desc": "This is a silly place"
+        }
+    ]
+}
