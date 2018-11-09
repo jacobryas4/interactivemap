@@ -1,34 +1,63 @@
+
+
 body {
-  background-color: black;
+  background-color: #343434;
+}
+
+.shown {
+  display: inline;
+}
+
+.hidden {
+  display: none;
+}
+
+.highlightPoint {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: #E11837;
 }
 
 .App {
-  text-align: center;
+  /* text-align: center; */
   width: 960px;
 }
 
 .Locations {
   width: 300px;
   height: 500px;
-  background-color: red;
+  background-color: #343434;
   border-radius: 10px;
-  margin: 20px 20px;
+  margin: 20px 25px;
   float: left;
-  
+  /* display: inline-block; */
+  overflow: hidden;
+}
+
+.addBorder {
+  border-left: 5px solid #E11837;
+  box-shadow: 5px 5px 10px black;
+  transition: all 0.1s linear;
 }
 
 .locationPointName {
-  padding-top: 3px;
+  padding-top: 1px;
+  padding-left: 3px;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
 }
 
 .locationPointName:hover {
   color: blue;
-  font-size: 17px;
-  font-family: 'Times New Roman', Times, serif;
-  
 }
 
-
+.locationPointContainer {
+  width: 50px;
+  background-color: white;
+  height: 50px;
+}
 
 .Map {
   width: 600px;
@@ -36,9 +65,23 @@ body {
   background-image: url('images/USMap.png');
   border-radius: 10px;
   margin: 20px 0;
-  float: right;
+  /* float: right; */
+  display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
+  border: 5px solid black;
+}
+
+.Popup {
+  width: 600px;
+  height: 200px;
+  background-color: white;
+  margin-left: 360px;
+  diplay: flex;
+}
+
+.textContainer {
+  padding: 2px 10px;
 }
 
 .App-logo {
@@ -59,6 +102,17 @@ body {
 
 .App-link {
   color: #61dafb;
+}
+
+
+.placeTitle {
+  padding: 5px 5px 2px 5px;
+  margin: 0;
+}
+
+.placeDescription {
+  padding-left: 5px;
+  margin: 0;
 }
 
 @keyframes App-logo-spin {
