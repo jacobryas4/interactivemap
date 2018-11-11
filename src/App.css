@@ -78,8 +78,10 @@ body {
   width: 600px;
   height: 200px;
   background-color: white;
-  margin-left: 360px;
+  margin-left: 350px;
   diplay: flex;
+  border-left: 5px solid #E11837;
+  border-radius: 3px;
 }
 
 .textContainer {
