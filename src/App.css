@@ -17,6 +17,8 @@ body {
   height: 15px;
   border-radius: 10px;
   background-color: #E11837;
+  margin-top: -2px;
+  margin-left: -2px;
 }
 
 .App {
